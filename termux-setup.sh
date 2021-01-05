@@ -6,7 +6,7 @@ echo='****************************************'
 # Upgrade PKG's
 pkg upgrade
 echo='Installing Packages'
-pkg add vim tmux git coreutils termux-api termux-services termux-exec termux-tools grep tree ncurses-utils openssh gpg nginx mariadb python cmake nodejs ruby golang
+pkg add unstable-repo x11-repo vim tmux git coreutils termux-api termux-services termux-exec termux-tools grep tree ncurses-utils openssh gpg proot curl wget nginx mariadb python cmake nodejs ruby golang
 # storage setup
 termux-setup-storage
 # configs from GitHub
